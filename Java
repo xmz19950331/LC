@@ -1,0 +1,7 @@
+##StringBuilder(String str)
+https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html
+1. append(String abc)
+2. charAt(int index)
+3. delete(int start, int end)
+4. deleteCharAt(int index)
+5. toString()
