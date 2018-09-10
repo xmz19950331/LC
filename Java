@@ -5,3 +5,10 @@ https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html
 3. delete(int start, int end)
 4. deleteCharAt(int index)
 5. toString()
+
+##左移( << )、右移( >> ) 、无符号右移( >>> ) 、位与( & ) 、位或( | )、位非( ~ )、位异或( ^ )
+
+##Priority Queue:
+PriorityQueue<Map.Entry<Integer, Integer>> maxHeap = new PriorityQueue<>((a, b) -> (b.getValue() - a.getValue()));
+
+##entry: for(Entry entry: map.entrySet())....  entry.getValue(); entry.getKey();
