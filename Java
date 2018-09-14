@@ -12,3 +12,7 @@ https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html
 PriorityQueue<Map.Entry<Integer, Integer>> maxHeap = new PriorityQueue<>((a, b) -> (b.getValue() - a.getValue()));
 
 ##entry: for(Entry entry: map.entrySet())....  entry.getValue(); entry.getKey();
+
+##Compare:
+boolean , byte , char , short , int , long , float and double: premitive data type, ==
+object: String.equals()
